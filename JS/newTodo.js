@@ -15,5 +15,6 @@ const addTodo = () => {
   })
     .then(response => {
       confirm(response.message);
+      location.reload();
     })
 }

@@ -6,6 +6,7 @@ function deleteTodo(id) {
   })
     .then(response => {
       confirm(response.message);
+      location.reload();
     })
 }
 
@@ -25,6 +26,7 @@ const updateTodo = (id) => {
   })
     .then(response => {
       confirm(response.message);
+      location.reload();
     })
 }
 
